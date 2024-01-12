@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaLink } from "react-icons/fa";
 import { Section, ToolList } from "@/components";
 
@@ -26,7 +27,7 @@ export const MyProjects: React.FC<MyProjectsProps> = ({ content }) => (
             <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />
             <div className="z-10 sm:order-2 sm:col-span-6">
               <h3>
-                <a
+                <Link
                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
                   href={link}
                 >
@@ -37,7 +38,7 @@ export const MyProjects: React.FC<MyProjectsProps> = ({ content }) => (
                       <FaLink />
                     </span>
                   </span>
-                </a>
+                </Link>
               </h3>
               <p className="mt-2 text-sm leading-normal">{description}</p>
               <ToolList tools={tools} />
@@ -48,6 +49,7 @@ export const MyProjects: React.FC<MyProjectsProps> = ({ content }) => (
               height={48}
               src={image}
               alt={title}
+              priority
             />
           </div>
         </li>
