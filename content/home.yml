@@ -56,7 +56,7 @@ experience:
 projects:
   - title: Game Engine
     link: /projects/game-engine
-    image: /previews/chatapp/chatroom.png
+    image: /previews/game-engine/editor.png
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
@@ -70,7 +70,7 @@ projects:
 
   - title: Chat App
     link: /projects/chatapp
-    image: /previews/chatapp/chatroom.png
+    image: /previews/chat-app/chatroom.png
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user

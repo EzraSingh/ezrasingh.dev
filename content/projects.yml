@@ -1,6 +1,23 @@
-portfolio:
+projects:
+  - title: Flower Finder
+    image: /previews/game-engine/editor.png
+    wip: true
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - Django
+      - GraphQL
+      - React
+      - FlyIO
+      - JSONNET
   - title: Game Engine
-    image: /previews/chatapp/chatroom.png
+    image: /previews/game-engine/editor.png
+    links:
+      app: https://game-engine-liontech.vercel.app/
+      study: /projects/game-engine
+    wip: true
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
@@ -11,9 +28,13 @@ portfolio:
       - React
       - Zustand
       - WASM
+      - Rust
 
   - title: Chat App
-    image: /previews/chatapp/chatroom.png
+    image: /previews/chat-app/chatroom.png
+    links:
+      app: https://chat.mongotel.com/
+      study: /projects/chat-app
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
@@ -26,6 +47,8 @@ portfolio:
 
   - title: Lion Tech NYC
     image: /previews/liontechnyc/home.png
+    links:
+      app: https://liontech.nyc/
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
@@ -34,3 +57,16 @@ portfolio:
       - Gatsby
       - SCSS
       - Netlify
+
+  - title: Service Graphing Tool
+    image: /previews/liontechnyc/home.png
+    links:
+      app: https://liontech.nyc/
+      study: /projects/service-graph
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - Typescript
+      - D3
