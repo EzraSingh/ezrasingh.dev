@@ -1,39 +1,36 @@
 portfolio:
   - title: Game Engine
-    image: /previews/chat-app/chatroom.png
+    image: /previews/chatapp/chatroom.png
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
       auth flows, Node, Express, React, Styled Components, and more.
     tools:
       - ThreeJS
-      - WASM
       - Typescript
       - React
       - Zustand
+      - WASM
 
   - title: Chat App
-    image: /previews/chat-app/chatroom.png
+    image: /previews/chatapp/chatroom.png
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
       auth flows, Node, Express, React, Styled Components, and more.
     tools:
-      - ThreeJS
-      - WASM
-      - Typescript
-      - React
-      - Zustand
+      - NextJS
+      - SocketIO
+      - MongoDB
+      - Redux
 
   - title: Lion Tech NYC
-    image: /previews/chat-app/chatroom.png
+    image: /previews/liontechnyc/home.png
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
       auth flows, Node, Express, React, Styled Components, and more.
     tools:
-      - ThreeJS
-      - WASM
-      - Typescript
-      - React
-      - Zustand
+      - Gatsby
+      - SCSS
+      - Netlify
