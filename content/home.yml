@@ -1,0 +1,102 @@
+experience:
+  - org: Mongotel
+    role: Lead Engineer
+    department: Apps Team
+    location: Brooklyn, NY
+    timeframe: 2020 - 2023
+    website: https://mongotel.com
+    description:
+      Deliver high-quality, robust production code for a diverse array
+      of projects for clients including Harvard Business School,
+      Everytown for Gun Safety, Pratt Institute, Koala Health,
+      Vanderbilt University, The 19th News, and more. Provide leadership
+      within engineering department through close collaboration,
+      knowledge shares, and mentorship.
+    tools:
+      - React
+      - Django
+      - Postgres
+      - Typescript
+      - TailwindCSS
+      - AWS
+
+  - org: Related Painting
+    role: Frontend Developer
+    department: Founding Team
+    location: New York, NY
+    timeframe: 2018 - 2019
+    website: https://relatedpainting.com
+    description:
+      Deliver high-quality, robust production code for a diverse array
+      of projects for clients including Harvard Business School,
+      Everytown for Gun Safety, Pratt Institute, Koala Health,
+      Vanderbilt University, The 19th News, and more. Provide leadership
+      within engineering department through close collaboration,
+      knowledge shares, and mentorship.
+    tools:
+      - React
+      - Redux
+      - Javascript
+      - Firebase
+      - SCSS
+      - Heroku
+
+  - org: Empire Capital Holdings
+    role: Web Developer
+    department: Development Team
+    location: New York, NY
+    timeframe: 2016 - 2017
+    website: https://empirecapitalholdings.com/
+    description:
+      Deliver high-quality, robust production code for a diverse array
+      of projects for clients including Harvard Business School,
+      Everytown for Gun Safety, Pratt Institute, Koala Health,
+      Vanderbilt University, The 19th News, and more. Provide leadership
+      within engineering department through close collaboration,
+      knowledge shares, and mentorship.
+    tools:
+      - Javascript
+      - JQuery
+      - Bootstrap
+      - Wordpress
+      - PHP
+
+projects:
+  - title: Game Engine
+    link: /projects/game-engine
+    image: /previews/chat-app/chatroom.png
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - ThreeJS
+      - WASM
+      - Typescript
+      - React
+      - Zustand
+
+  - title: Chat App
+    link: /projects/chat-app
+    image: /previews/chat-app/chatroom.png
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - NextJS
+      - SocketIO
+      - MongoDB
+      - Redux
+
+  - title: Lion Tech NYC
+    link: /projects/liontechnyc
+    image: /previews/chat-app/chatroom.png
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - Gatsby
+      - SCSS
+      - Netlify
