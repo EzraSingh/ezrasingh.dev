@@ -2,7 +2,7 @@ import { NavItem } from "@/app/components";
 
 export const SideNav = () => (
   <nav
-    className="nav hidden lg:block animate__animated animate__fadeIn animate__slow animate__delay-3s"
+    className="nav hidden lg:block animate__animated animate__fadeIn animate__slow animate__delay-2s"
     aria-label="Page links"
   >
     <ul className="mt-16 w-max">
