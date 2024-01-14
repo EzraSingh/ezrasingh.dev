@@ -13,7 +13,7 @@ import content from "@/app/content/home.yml";
 export default function Home() {
   return (
     <SplitLayout>
-      <Header />
+      <Header social={content.social} />
       <main className="pt-12 lg:pt-24 lg:w-1/2 lg:py-24">
         <AboutMe />
         <Experience content={content.experience} />

@@ -1,7 +1,11 @@
 import { SideNav } from "./SideNav";
-import { Social } from "./Social";
+import { Social, SocialProps } from "./Social";
 
-export const Header = () => (
+export interface HeaderProps {
+  social?: SocialProps;
+}
+
+export const Header: React.FC<HeaderProps> = ({ social = {} }) => (
   <aside className="lg:py-24 lg:sticky lg:top-0 lg:flex lg:flex-col lg:justify-between lg:max-h-screen lg:w-1/2">
     <header className="animate__animated animate__fadeIn animate__slow">
       <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
@@ -19,6 +23,6 @@ export const Header = () => (
       <SideNav />
     </header>
 
-    <Social />
+    <Social {...social} />
   </aside>
 );

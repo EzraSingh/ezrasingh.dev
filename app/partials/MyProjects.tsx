@@ -19,7 +19,7 @@ export const MyProjects: React.FC<MyProjectsProps> = ({ content }) => (
     title="Projects"
     cta="View All Projects"
     ctaLink="/projects"
-    className="animate__animated animate__fadeIn animate__slow animate__delay-1s"
+    className="animate__animated animate__fadeIn animate__slower animate__delay-3s"
   >
     <ul>
       {content.map(({ title, link, image, description, tools = [] }) => (

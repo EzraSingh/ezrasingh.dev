@@ -5,3 +5,4 @@ export * from "./HyperLink";
 export * from "./Backdrop";
 export * from "./ToolList";
 export * from "./SplitLayout";
+export * from "./SocialLink";

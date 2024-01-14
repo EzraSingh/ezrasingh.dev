@@ -5,6 +5,7 @@ import cx from "classnames";
 
 import "animate.css";
 import "./globals.css";
+import "./markdown.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 

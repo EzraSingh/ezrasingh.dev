@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* All delay classes will take half the time to start */
+  --animate-delay: 0.5s;
+}

@@ -18,7 +18,7 @@ const titleClass = cx(
   "w-screen",
   "bg-slate-900/75",
   "px-6",
-  "py-5",
+  "py-8",
   "backdrop-blur",
   "md:-mx-12",
   "md:px-12",

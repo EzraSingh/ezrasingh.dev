@@ -2,11 +2,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import { FiExternalLink } from "react-icons/fi";
-import { SplitLayout, ToolList } from "@/app/components";
 import cx from "classnames";
-
+import { SplitLayout, ToolList } from "@/app/components";
 // @ts-ignore
 import content from "@/app/content/projects.yml";
 
@@ -69,7 +69,17 @@ const linkClass = cx(
 
 export default function CaseStudy({ params }: PageProps) {
   const router = useRouter();
-  const project = content.projects[params.slug];
+  const projectSlug = params.slug;
+  const project = content.projects[projectSlug];
+  const [caseStudy, setCaseStudy] = useState<JSX.Element>(<></>);
+  useEffect(() => {
+    const importMdxDoc = async () => {
+      const doc = await import(`../../content/studies/${projectSlug}.mdx`);
+      const Content = doc.default;
+      setCaseStudy(<Content />);
+    };
+    importMdxDoc();
+  }, [projectSlug]);
 
   if (!project) {
     router.replace("/");
@@ -80,7 +90,7 @@ export default function CaseStudy({ params }: PageProps) {
     <>
       <div className="max-w-screen-xl flex gap-8 mx-auto pt-6 px-6 -mb-4 lg:pb-8 md:px-12 lg:px-24">
         <Link href="/projects" className={linkClass}>
-          back to projects&nbsp;
+          view projects&nbsp;
           <span className="inline-block ml-2">
             <RiArrowGoBackFill />
           </span>
@@ -118,66 +128,8 @@ export default function CaseStudy({ params }: PageProps) {
               </span>
             </a>
           </header>
-          <hr className="my-8 w-5/6 opacity-60" />
-          <div className="pr-6 lg:pr-12">
-            <p className="mt-2 text-sm leading-relaxed normal-case line-h">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              risus ante, fringilla quis velit at, facilisis fringilla sem. Sed
-              mauris lacus, facilisis eu scelerisque aliquam, porttitor vel
-              arcu. Pellentesque ac eros lorem. Donec convallis tortor ut lacus
-              sollicitudin iaculis. Vivamus volutpat dui magna. Vivamus non
-              vestibulum justo. Curabitur feugiat elit commodo, varius purus ac,
-              luctus lacus. Nunc tincidunt porttitor nunc eget faucibus. Fusce
-              finibus turpis ut nisl porta accumsan. Phasellus fermentum rutrum
-              elementum. In tempus massa sed mi sagittis, at egestas neque
-              tempus.
-            </p>
-            <p className="mt-2 text-sm leading-relaxed normal-case">
-              Vivamus a elit quis mauris venenatis hendrerit. Curabitur ac nibh
-              sed nisl feugiat aliquam id eget massa. Mauris fringilla neque
-              mauris, eget ultricies tortor porttitor in. Sed posuere leo eget
-              pellentesque lobortis. Donec in convallis quam, in dictum tortor.
-              Etiam at diam ut libero consequat euismod. Sed a leo nulla. Cras
-              orci erat, aliquet eu ullamcorper aliquet, vulputate vitae ex. Ut
-              at tristique metus. Pellentesque id ex suscipit, imperdiet turpis
-              ut, tempus leo. Duis aliquet erat ut vestibulum semper. Sed
-              aliquam accumsan enim sed volutpat. Nulla facilisi. Etiam libero
-              odio, congue vitae pharetra lobortis, consectetur eget orci.
-            </p>
-            <p className="mt-2 text-sm leading-relaxed normal-case">
-              Orci varius natoque penatibus et magnis dis parturient montes,
-              nascetur ridiculus mus. Aenean fermentum molestie velit sed
-              mattis. Nulla venenatis euismod augue quis varius. Etiam at neque
-              id leo iaculis varius non non nulla. Nullam at erat hendrerit,
-              lacinia sapien id, varius orci. Duis consequat vitae risus et
-              dignissim. Duis a bibendum augue. Integer id ex porta, vestibulum
-              lorem sed, faucibus neque. Proin ultrices tellus eros, vel mattis
-              ligula feugiat eget. Aenean dictum efficitur tristique. In id
-              aliquet elit. Sed quam nisi, dignissim sollicitudin tempus a,
-              tempus laoreet nunc. Curabitur eu tortor fermentum massa rhoncus
-              mattis id nec dui. Proin aliquet porta urna vel vehicula.
-              Phasellus at nisl a dolor aliquet tincidunt.
-            </p>
-            <p className="mt-2 text-sm leading-normal normal-case">
-              Donec ut eleifend neque. Suspendisse potenti. Nunc et elit quis
-              risus aliquet facilisis eget eu urna. Nunc at aliquet nibh. Fusce
-              scelerisque metus sit amet lectus condimentum, nec convallis quam
-              finibus. Proin venenatis ipsum eu elit interdum suscipit.
-              Vestibulum urna erat, aliquet a tellus vel, ultrices vestibulum
-              tortor. Maecenas ut vehicula lectus. Proin mollis, ante fringilla
-              tincidunt finibus, tortor neque vulputate purus, ut dignissim
-              tellus augue quis odio. Vivamus ut ex felis. Nullam consectetur
-              tempor magna non sagittis.
-            </p>
-            <p className="mt-2 text-sm leading-normal normal-case">
-              Vestibulum risus odio, interdum aliquam auctor ut, auctor luctus
-              ligula. Fusce blandit posuere sapien et condimentum. In et arcu
-              magna. Proin porttitor porta nibh, sit amet auctor sem dictum et.
-              Maecenas non lacinia est. In gravida auctor sollicitudin. In in
-              orci commodo, viverra enim vel, congue risus. Nulla facilisi.
-              Donec facilisis eleifend mauris, non convallis velit imperdiet a.
-            </p>
-          </div>
+          <hr className="my-8 w-5/6 opacity-10" />
+          <div className="md pr-6 lg:pr-12">{caseStudy}</div>
         </main>
       </SplitLayout>
     </>

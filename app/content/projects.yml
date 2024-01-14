@@ -1,19 +1,5 @@
 # Project List
 grid:
-  - title: Flower Finder
-    image: /previews/game-engine/editor.png
-    wip: true
-    description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
-    tools:
-      - Django
-      - GraphQL
-      - Vite
-      - FlyIO
-      - ESP32
-
   - title: Game Engine
     image: /previews/game-engine/editor.png
     links:
@@ -31,6 +17,20 @@ grid:
       - Zustand
       - WASM
       - Rust
+
+  - title: Flower Finder
+    image: /previews/game-engine/editor.png
+    wip: true
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - Django
+      - GraphQL
+      - Vite
+      - FlyIO
+      - ESP32
 
   - title: Chat App
     image: /previews/chat-app/chatroom.png
@@ -79,18 +79,6 @@ grid:
 
 # Case Studies
 projects:
-  flowerfinder:
-    title: Flower Finder
-    subtitle: Ecommerce with real-time inventory tracking
-    image: /previews/game-engine/editor.png
-    link: https://game-engine-liontech.vercel.app/
-    tools:
-      - Django
-      - GraphQL
-      - Vite
-      - FlyIO
-      - ESP32
-
   game-engine:
     title: Game Engine
     subtitle: Web first game editor and player

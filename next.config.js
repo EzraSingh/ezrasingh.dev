@@ -1,6 +1,9 @@
-/** @type {import('next').NextConfig} */
 const withYaml = require("next-plugin-yaml");
+const withMDX = require("@next/mdx")();
 
-const nextConfig = withYaml({});
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+};
 
-module.exports = nextConfig;
+module.exports = withYaml(withMDX(nextConfig));

@@ -1,6 +1,6 @@
 experience:
   - org: Mongotel
-    role: Lead Engineer
+    role: Lead Fullstack Engineer
     department: Apps Team
     location: Brooklyn, NY
     timeframe: 2020 - 2023
@@ -20,7 +20,7 @@ experience:
       - AWS
 
   - org: Related Painting
-    role: Frontend Developer
+    role: Frontend Engineer
     department: Founding Team
     location: New York, NY
     timeframe: 2018 - 2019
@@ -69,7 +69,7 @@ projects:
       - Zustand
 
   - title: Chat App
-    link: /projects/chatapp
+    link: /projects/chat-app
     image: /previews/chat-app/chatroom.png
     description:
       Video course that teaches how to build a web app with the Spotify
@@ -85,7 +85,7 @@ projects:
       - Redis
 
   - title: Lion Tech NYC
-    link: /projects/liontechnyc
+    link: https://liontech.nyc/
     image: /previews/liontechnyc/home.png
     description:
       Video course that teaches how to build a web app with the Spotify
@@ -96,3 +96,9 @@ projects:
       - SCSS
       - Netlify
       - Typescript
+
+social:
+  github: https://github.com/ezrasingh/
+  gitlab: https://gitlab.com/esingh/
+  linkedin: https://www.linkedin.com/in/ezrasingh/
+  email: singhezra@gmail.com

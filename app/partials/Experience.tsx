@@ -20,7 +20,7 @@ export const Experience: React.FC<ExperienceProps> = ({ content }) => (
     title="experience"
     cta="view full resume"
     ctaLink="/resume.pdf"
-    className="animate__animated animate__fadeIn animate__slow animate__delay-1s"
+    className="animate__animated animate__fadeIn animate__slower animate__delay-3s"
   >
     <ol>
       {content.map(

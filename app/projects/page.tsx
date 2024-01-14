@@ -7,7 +7,7 @@ import content from "@/app/content/projects.yml";
 export default function Projects() {
   return (
     <main className="lg:mx-32 md:mx-16">
-      <header className="capitalize flex px-8 pt-8 items-center animate__animated animate__fadeInDown animate__slow animate__delay-1s">
+      <header className="capitalize flex px-8 pt-8 items-center animate__animated animate__fadeInDown animate__delay-1s">
         <Link
           href="/"
           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-base"

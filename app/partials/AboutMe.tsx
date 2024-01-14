@@ -4,7 +4,7 @@ export const AboutMe = () => (
   <Section
     id="about"
     title="About me"
-    className="animate__animated animate__fadeIn animate__slower animate__delay-1s lg:mb-16"
+    className="animate__animated animate__fadeIn animate__slower animate__delay-2s lg:mb-16"
   >
     <p className="mb-4">
       My journey began in 2012 with tinkering and crafting mods for video game

@@ -51,7 +51,9 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
             "hover:border-slate-300",
             "rounded-lg",
             "p-10",
-            "pb-24",
+            "pb-32",
+            "md:pb-24",
+            "lg:pb-24",
             "transition",
             "motion-reduce:transition-none",
             "lg:group-hover:bg-slate-800/50",
@@ -59,7 +61,6 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
             "lg:group-hover:drop-shadow-lg",
             "animate__animated",
             "animate__fadeIn",
-            "animate__slow",
             {
               // ? stagger delay by grid column count
               [`animate__delay-${index % gridColumnCount}s`]:
@@ -87,7 +88,7 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
           </h2>
           <p className="my-2 mb-4 mr-4">{project.description}</p>
           <ToolList tools={project.tools} />
-          <div className="absolute flex justify-between left-8 right-8 bottom-8 capitalize">
+          <div className="absolute left-8 right-8 bottom-8 flex flex-col md:flex-row lg:flex-row gap-4 justify-between items-center capitalize">
             {project?.links?.app ? (
               <a
                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 hover:underline focus-visible:text-teal-300 group/link text-base"
@@ -103,19 +104,19 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
               </a>
             ) : (
               <span className="inline-flex items-baseline font-medium leading-tight text-slate-200 text-base cursor-not-allowed">
-                <span className="flex items-center capitalize">
+                <span className="flex items-center capitalize opacity-50">
                   not live yet
                 </span>
               </span>
             )}
             {project?.links?.study && (
               <Link
-                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 hover:underline focus-visible:text-teal-300 group/link text-base"
+                className="inline-flex items-baseline font-medium hover:font-bold leading-tight text-slate-200  focus-visible:text-teal-300 text-base"
                 href={project.links.study}
               >
-                <span className="flex items-center capitalize">
+                <button className="capitalize max-w-max bg-blue-600 hover:bg-blue-500 hover:text-white py-1 lg:py-2 px-3 lg:px-4 transition-all border-b-4 border-blue-500 hover:border-blue-400 rounded cursor-help">
                   view case study
-                </span>
+                </button>
               </Link>
             )}
           </div>
