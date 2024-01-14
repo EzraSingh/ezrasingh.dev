@@ -76,10 +76,13 @@ projects:
       Web API. Topics covered include the principles of REST APIs, user
       auth flows, Node, Express, React, Styled Components, and more.
     tools:
-      - NextJS
+      - React
       - SocketIO
       - MongoDB
       - Redux
+      - Bandwidth
+      - Peerless
+      - Redis
 
   - title: Lion Tech NYC
     link: /projects/liontechnyc
@@ -92,3 +95,4 @@ projects:
       - Gatsby
       - SCSS
       - Netlify
+      - Typescript

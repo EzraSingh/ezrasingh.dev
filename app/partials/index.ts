@@ -4,3 +4,4 @@ export * from "./Footer";
 export * from "./Experience";
 export * from "./MyProjects";
 export * from "./ProjectsGrid";
+export * from "./SideNav";

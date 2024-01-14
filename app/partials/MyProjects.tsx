@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaLink } from "react-icons/fa";
-import { Section, ToolList } from "@/components";
+import { Section, ToolList } from "@/app/components";
 
 export interface MyProjectsProps {
   content: Array<{
@@ -19,6 +19,7 @@ export const MyProjects: React.FC<MyProjectsProps> = ({ content }) => (
     title="Projects"
     cta="View All Projects"
     ctaLink="/projects"
+    className="animate__animated animate__fadeIn animate__slow animate__delay-1s"
   >
     <ul>
       {content.map(({ title, link, image, description, tools = [] }) => (
