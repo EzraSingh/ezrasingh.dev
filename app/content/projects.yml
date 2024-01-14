@@ -1,0 +1,116 @@
+# Project List
+grid:
+  - title: Flower Finder
+    image: /previews/game-engine/editor.png
+    wip: true
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - Django
+      - GraphQL
+      - Vite
+      - FlyIO
+      - ESP32
+
+  - title: Game Engine
+    image: /previews/game-engine/editor.png
+    links:
+      app: https://game-engine-liontech.vercel.app/
+      study: /projects/game-engine/
+    wip: true
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - ThreeJS
+      - Typescript
+      - React
+      - Zustand
+      - WASM
+      - Rust
+
+  - title: Chat App
+    image: /previews/chat-app/chatroom.png
+    links:
+      app: https://chat.mongotel.com/
+      study: /projects/chat-app/
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - React
+      - Redux
+      - SocketIO
+      - MongoDB
+      - AWS
+
+  - title: Lion Tech NYC
+    image: /previews/liontechnyc/home.png
+    links:
+      app: https://liontech.nyc/
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - React
+      - SCSS
+      - Netlify
+      - SPA
+
+  - title: Service Graphing Tool
+    image: /previews/service-graph/graph.png
+    links:
+      app: https://service-grapher.vercel.app/
+      study: /projects/service-graph/
+    description:
+      Video course that teaches how to build a web app with the Spotify
+      Web API. Topics covered include the principles of REST APIs, user
+      auth flows, Node, Express, React, Styled Components, and more.
+    tools:
+      - D3
+      - NextJS
+      - Jsonnet
+      - Github Actions
+
+# Case Studies
+projects:
+  flowerfinder:
+    title: Flower Finder
+    subtitle: Ecommerce with real-time inventory tracking
+    image: /previews/game-engine/editor.png
+    link: https://game-engine-liontech.vercel.app/
+    tools:
+      - Django
+      - GraphQL
+      - Vite
+      - FlyIO
+      - ESP32
+
+  game-engine:
+    title: Game Engine
+    subtitle: Web first game editor and player
+    image: /previews/game-engine/editor.png
+    link: https://game-engine-liontech.vercel.app/
+    tools:
+      - ThreeJS
+      - Typescript
+      - Zustand
+      - WASM
+      - Rust
+
+  chat-app:
+    title: Chat App
+    subtitle: Shared SMS / MMS access for your Mongotel number
+    image: /previews/chat-app/chatroom.png
+    link: https://chat.mongotel.com/
+    tools:
+      - React
+      - Redux
+      - SocketIO
+      - MongoDB
+      - AWS

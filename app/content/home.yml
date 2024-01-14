@@ -6,12 +6,11 @@ experience:
     timeframe: 2020 - 2023
     website: https://mongotel.com
     description:
-      Deliver high-quality, robust production code for a diverse array
-      of projects for clients including Harvard Business School,
-      Everytown for Gun Safety, Pratt Institute, Koala Health,
-      Vanderbilt University, The 19th News, and more. Provide leadership
-      within engineering department through close collaboration,
-      knowledge shares, and mentorship.
+      Revamped outdated code bases to align with contemporary standards,
+      leading to decreased operational expenses and enhanced functionality.
+      Collaborated with cross-functional teams, including project managers, developers, quality assurance,
+      and customers, to address technical issues, designed system architecture,
+      and implemented product specifications.
     tools:
       - React
       - Django
@@ -27,12 +26,9 @@ experience:
     timeframe: 2018 - 2019
     website: https://relatedpainting.com
     description:
-      Deliver high-quality, robust production code for a diverse array
-      of projects for clients including Harvard Business School,
-      Everytown for Gun Safety, Pratt Institute, Koala Health,
-      Vanderbilt University, The 19th News, and more. Provide leadership
-      within engineering department through close collaboration,
-      knowledge shares, and mentorship.
+      Transformed mockups into functional web interfaces using React and Firebase.
+      Ensured optimal website design through thorough testing for responsiveness, clarity, and effectiveness,
+      conducting functional testing throughout the web development lifecycle.
     tools:
       - React
       - Redux
@@ -48,12 +44,8 @@ experience:
     timeframe: 2016 - 2017
     website: https://empirecapitalholdings.com/
     description:
-      Deliver high-quality, robust production code for a diverse array
-      of projects for clients including Harvard Business School,
-      Everytown for Gun Safety, Pratt Institute, Koala Health,
-      Vanderbilt University, The 19th News, and more. Provide leadership
-      within engineering department through close collaboration,
-      knowledge shares, and mentorship.
+      Implemented technical solutions to support specific user-facing assets, such as a Property Search Engine.
+      Managed back-end development using PHP to uphold website integrity, security, and efficiency.
     tools:
       - Javascript
       - JQuery
@@ -64,7 +56,7 @@ experience:
 projects:
   - title: Game Engine
     link: /projects/game-engine
-    image: /previews/chat-app/chatroom.png
+    image: /previews/game-engine/editor.png
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
@@ -77,21 +69,24 @@ projects:
       - Zustand
 
   - title: Chat App
-    link: /projects/chat-app
+    link: /projects/chatapp
     image: /previews/chat-app/chatroom.png
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
       auth flows, Node, Express, React, Styled Components, and more.
     tools:
-      - NextJS
+      - React
       - SocketIO
       - MongoDB
       - Redux
+      - Bandwidth
+      - Peerless
+      - Redis
 
   - title: Lion Tech NYC
     link: /projects/liontechnyc
-    image: /previews/chat-app/chatroom.png
+    image: /previews/liontechnyc/home.png
     description:
       Video course that teaches how to build a web app with the Spotify
       Web API. Topics covered include the principles of REST APIs, user
@@ -100,3 +95,4 @@ projects:
       - Gatsby
       - SCSS
       - Netlify
+      - Typescript

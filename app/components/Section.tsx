@@ -1,7 +1,7 @@
 import { FiExternalLink } from "react-icons/fi";
 import cx from "classnames";
 
-const containerClass = cx(
+const sectionClass = cx(
   "mb-16",
   "scroll-mt-16",
   "md:mb-24",
@@ -38,6 +38,7 @@ export interface SectionProps extends React.PropsWithChildren {
   cta?: string;
   ctaLink?: string;
   className?: string;
+  containerClass?: string;
 }
 
 export const Section: React.FC<SectionProps> = ({
@@ -46,15 +47,16 @@ export const Section: React.FC<SectionProps> = ({
   cta,
   ctaLink,
   className,
+  containerClass,
   children,
 }) => (
-  <section id={id} className={cx(containerClass, className)} aria-label={title}>
+  <section id={id} className={cx(sectionClass, className)} aria-label={title}>
     <div className={titleClass}>
       <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
         {title}
       </h2>
     </div>
-    <div>
+    <div className={containerClass}>
       {children}
       {cta && (
         <div className="mt-12 capitalize">

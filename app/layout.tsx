@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Spotlight } from "@/components";
+import { Spotlight } from "@/app/components";
 import cx from "classnames";
 
 import "animate.css";

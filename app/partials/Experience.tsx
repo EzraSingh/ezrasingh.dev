@@ -1,5 +1,5 @@
 import { FaLink } from "react-icons/fa";
-import { Section, ToolList } from "@/components";
+import { Section, ToolList } from "@/app/components";
 
 export interface ExperienceProps {
   content: Array<{
@@ -20,7 +20,7 @@ export const Experience: React.FC<ExperienceProps> = ({ content }) => (
     title="experience"
     cta="view full resume"
     ctaLink="/resume.pdf"
-    className="animate__animated animate__fadeIn"
+    className="animate__animated animate__fadeIn animate__slow animate__delay-1s"
   >
     <ol>
       {content.map(
