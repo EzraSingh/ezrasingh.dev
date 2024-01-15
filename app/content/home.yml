@@ -58,8 +58,9 @@ projects:
     link: /projects/shalamar/
     image: /previews/shalamar/editor.png
     description: Polyglot game development engine.
+      Polyglot game development engine.
       Enables developers to leverage almost any coding language in their game.
-      The architecture is designed for the web first and
+      The web first architecture
       makes in-game networking feel like a first class citizen.
     tools:
       - ThreeJS
