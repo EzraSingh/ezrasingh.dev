@@ -11,7 +11,10 @@ import { SplitLayout, ToolList } from "@/app/components";
 import content from "@/app/content/projects.yml";
 
 const galleryClass = cx(
-  "lg:sticky",
+  "-ml-20",
+  "-mr-4",
+  "lg:ml-0",
+  "lg:mr-0",
   "lg:flex",
   "lg:max-h-screen",
   "lg:w-1/2",
@@ -70,7 +73,7 @@ const linkClass = cx(
 export default function CaseStudy({ params }: PageProps) {
   const router = useRouter();
   const projectSlug = params.slug;
-  const project = content.projects[projectSlug];
+  const project = content.studies[projectSlug];
   const [caseStudy, setCaseStudy] = useState<JSX.Element>(<></>);
   useEffect(() => {
     const importMdxDoc = async () => {
@@ -102,13 +105,21 @@ export default function CaseStudy({ params }: PageProps) {
       </div>
       <SplitLayout>
         <aside className={galleryClass}>
-          <Image
-            width={1000}
-            height={500}
-            src={project.image}
-            alt={project.title}
-            className="shadow-xl rounded-lg"
-          />
+          <figure className="inline-block lg:sticky lg:top-16">
+            {project.preview ? (
+              <video width={1000} height={500} autoPlay loop muted>
+                <source src={project.preview} type="video/webm" />
+              </video>
+            ) : (
+              <Image
+                width={1000}
+                height={500}
+                src={project.image}
+                alt={project.title}
+                className="shadow-xl rounded-lg"
+              />
+            )}
+          </figure>
         </aside>
         <main className="lg:w-1/2 animate__animated animate__fadeIn">
           <header className={headerClass}>

@@ -2,5 +2,8 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[mdx]": {
+        "editor.defaultFormatter": "unifiedjs.vscode-mdx"
     }
 }

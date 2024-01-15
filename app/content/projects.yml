@@ -1,15 +1,16 @@
 # Project List
 grid:
-  - title: Game Engine
-    image: /previews/game-engine/editor.png
+  - title: Shalamar
+    image: /previews/shalamar/editor.png
+    preview: /previews/shalamar/demo.webm
     links:
       app: https://game-engine-liontech.vercel.app/
-      study: /projects/game-engine/
+      study: /projects/shalamar/
     wip: true
-    description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
+    description: Polyglot game development engine.
+      Enables developers to leverage almost any coding language in their game.
+      The architecture is designed for the web first and
+      makes in-game networking feel like a first class citizen.
     tools:
       - ThreeJS
       - Typescript
@@ -18,29 +19,42 @@ grid:
       - WASM
       - Rust
 
-  - title: Flower Finder
-    image: /previews/game-engine/editor.png
-    wip: true
-    description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
+  #- title: Flower Finder
+  #  image: /previews/game-engine/editor.png
+  #  wip: true
+  #  description:
+  #    Video course that teaches how to build a web app with the Spotify
+  #    Web API. Topics covered include the principles of REST APIs, user
+  #    auth flows, Node, Express, React, Styled Components, and more.
+  #  tools:
+  #    - Django
+  #    - GraphQL
+  #    - Vite
+  #    - FlyIO
+  #    - ESP32
+
+  - title: Service Graphing Tool
+    image: /previews/service-graph/graph.png
+    links:
+      app: https://service-grapher.vercel.app/
+      study: /projects/service-graph/
+    description: Document your infrastructure with a graph structure.
+      Helps with onboarding new members of the engineering team by providing
+      a visual talking point for explaining exisiting architecture.
     tools:
-      - Django
-      - GraphQL
-      - Vite
-      - FlyIO
-      - ESP32
+      - D3
+      - NextJS
+      - Jsonnet
+      - Github Actions
 
   - title: Chat App
     image: /previews/chat-app/chatroom.png
     links:
       app: https://chat.mongotel.com/
       study: /projects/chat-app/
-    description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
+    description: Take your Mongotel number to the next level with SMS/MMS.
+      Managers can delegate access to their numbers and
+      allow staff members to directly text message their customers.
     tools:
       - React
       - Redux
@@ -53,36 +67,22 @@ grid:
     links:
       app: https://liontech.nyc/
     description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
+      A consultancy agency I created to do my freelance and contract work under.
+      I work with businesses to understand their goals
+      and help identify ways they can maximize ROI with technology.
     tools:
       - React
       - SCSS
       - Netlify
       - SPA
 
-  - title: Service Graphing Tool
-    image: /previews/service-graph/graph.png
-    links:
-      app: https://service-grapher.vercel.app/
-      study: /projects/service-graph/
-    description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
-    tools:
-      - D3
-      - NextJS
-      - Jsonnet
-      - Github Actions
-
 # Case Studies
-projects:
-  game-engine:
-    title: Game Engine
-    subtitle: Web first game editor and player
-    image: /previews/game-engine/editor.png
+studies:
+  shalamar:
+    title: Shalamar
+    subtitle: Polyglot game dev engine
+    image: /previews/shalamar/editor.png
+    preview: /previews/shalamar/demo.webm
     link: https://game-engine-liontech.vercel.app/
     tools:
       - ThreeJS
@@ -90,6 +90,16 @@ projects:
       - Zustand
       - WASM
       - Rust
+  service-graph:
+    title: Service Graph
+    subtitle: Document your infrastructure with a graph structure
+    image: /previews/service-graph/graph.png
+    link: https://service-grapher.vercel.app/
+    tools:
+      - D3
+      - NextJS
+      - Jsonnet
+      - Github Actions
 
   chat-app:
     title: Chat App

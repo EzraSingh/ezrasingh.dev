@@ -9,6 +9,7 @@ import { ToolList } from "@/app/components";
 export interface ProjectDetails {
   title: string;
   image: string;
+  preview?: string;
   description: string;
   wip: boolean;
   tools: string[];
@@ -70,14 +71,20 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
             }
           )}
         >
-          <Image
-            width={1000}
-            height={64}
-            src={project.image}
-            alt={project.title}
-            className="rounded-xl"
-            priority
-          />
+          {project.preview ? (
+            <video width={1000} height={64} autoPlay loop muted>
+              <source src={project.preview} type="video/webm" />
+            </video>
+          ) : (
+            <Image
+              width={1000}
+              height={64}
+              src={project.image}
+              alt={project.title}
+              className="rounded-xl"
+              priority
+            />
+          )}
           <h2 className="my-4 capitalize text-2xl font-medium leading-snug text-slate-200 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
             {project.title}
             {project.wip && (
@@ -115,7 +122,7 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
                 href={project.links.study}
               >
                 <button className="capitalize max-w-max bg-blue-600 hover:bg-blue-500 hover:text-white py-1 lg:py-2 px-3 lg:px-4 transition-all border-b-4 border-blue-500 hover:border-blue-400 rounded cursor-help">
-                  view case study
+                  read case study
                 </button>
               </Link>
             )}

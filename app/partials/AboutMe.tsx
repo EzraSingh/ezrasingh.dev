@@ -23,14 +23,21 @@ export const AboutMe = () => (
       <HyperLink href="https://mongotel.com/">large corporation</HyperLink>.
     </p>
     <p className="mb-4">
-      These days, my main concentration is on self-education in approaches for
-      tackling complex problems. During my free time, I create and share lessons
-      and tutorials on app development and devops.
+      These days, my main focus has been on{" "}
+      <HyperLink href="https://github.com/EzraSingh/">
+        contributing to open source
+      </HyperLink>{" "}
+      projects and{" "}
+      <HyperLink href="https://gitlab.com/esingh/">
+        furthering my self-education
+      </HyperLink>
+      . During my free time, I create and share lessons and tutorials on app
+      development and devops.
     </p>
     <p>
       When I&apos;m not at my computer, I&apos;m usually playing the guitar,
-      spending quality time with my partner, dog, and two cats, or reading about
-      theoretical physics.
+      spending quality time with my partner, dog, and two cats, or reading up on
+      gravity and quantum mechanics.
     </p>
   </Section>
 );

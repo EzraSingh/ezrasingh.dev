@@ -54,13 +54,13 @@ experience:
       - PHP
 
 projects:
-  - title: Game Engine
-    link: /projects/game-engine
-    image: /previews/game-engine/editor.png
-    description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
+  - title: Shalamar
+    link: /projects/shalamar/
+    image: /previews/shalamar/editor.png
+    description: Polyglot game development engine.
+      Enables developers to leverage almost any coding language in their game.
+      The architecture is designed for the web first and
+      makes in-game networking feel like a first class citizen.
     tools:
       - ThreeJS
       - WASM
@@ -71,10 +71,9 @@ projects:
   - title: Chat App
     link: /projects/chat-app
     image: /previews/chat-app/chatroom.png
-    description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
+    description: Take your Mongotel number to the next level with SMS/MMS.
+      Managers can delegate access to their numbers and
+      allow staff members to directly text message their customers.
     tools:
       - React
       - SocketIO
@@ -88,9 +87,10 @@ projects:
     link: https://liontech.nyc/
     image: /previews/liontechnyc/home.png
     description:
-      Video course that teaches how to build a web app with the Spotify
-      Web API. Topics covered include the principles of REST APIs, user
-      auth flows, Node, Express, React, Styled Components, and more.
+      A consultancy agency I created to do my freelance and contract work under.
+      I work with businesses to understand their goals
+      and help identify ways they can maximize ROI with technology.
+
     tools:
       - Gatsby
       - SCSS
