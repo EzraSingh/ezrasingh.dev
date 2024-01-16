@@ -82,7 +82,6 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
               height={64}
               src={project.image}
               alt={project.title}
-              className="rounded-xl"
               priority
             />
           )}

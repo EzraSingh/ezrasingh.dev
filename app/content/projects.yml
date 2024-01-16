@@ -18,19 +18,9 @@ grid:
       - WASM
       - Rust
 
-  - title: Flower Finder
-    wip: true
-    description: Eccommerce platform with embedded real-time inventory tracking and Point-of-Sale.
-    tools:
-      - Django
-      - React
-      - GraphQL
-      - FlyIO
-      - PlatformIO
-      - C++
-
   - title: Service Graphing Tool
     image: /previews/service-graph/graph.png
+    preview: /previews/service-graph/demo.webm
     links:
       app: https://service-grapher.vercel.app/
     description: Document your infrastructure with a graph structure.
@@ -41,6 +31,20 @@ grid:
       - NextJS
       - Jsonnet
       - Github Actions
+
+  - title: Lion Tech NYC
+    image: /previews/liontechnyc/home.png
+    links:
+      app: https://liontech.nyc/
+    description:
+      A consultancy agency I created to do my freelance and contract work under.
+      I work with businesses to understand their goals
+      and help identify ways they can maximize ROI with technology.
+    tools:
+      - React
+      - SCSS
+      - Netlify
+      - SPA
 
   - title: Chat App
     image: /previews/chat-app/chatroom.png
@@ -56,19 +60,16 @@ grid:
       - MongoDB
       - AWS
 
-  - title: Lion Tech NYC
-    image: /previews/liontechnyc/home.png
-    links:
-      app: https://liontech.nyc/
-    description:
-      A consultancy agency I created to do my freelance and contract work under.
-      I work with businesses to understand their goals
-      and help identify ways they can maximize ROI with technology.
+  - title: Flower Finder
+    wip: true
+    description: Eccommerce platform with embedded real-time inventory tracking and Point-of-Sale.
     tools:
+      - Django
       - React
-      - SCSS
-      - Netlify
-      - SPA
+      - GraphQL
+      - FlyIO
+      - PlatformIO
+      - C++
 
 # Case Studies
 studies:
