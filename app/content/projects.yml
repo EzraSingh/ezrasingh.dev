@@ -46,6 +46,17 @@ grid:
       - Netlify
       - SPA
 
+  - title: ACPI Event Manager
+    image: /previews/acpi-event-manager/repo.png
+    links:
+      app: https://github.com/ezrasingh/acpi-event-manager/
+      study: https://medium.com/@singhezra/how-rust-saved-my-eyes-4c1e4061a13e
+    description: ACPI Event Manager for brightness control. This script is for Ubuntu developers like me who made the mistake of buying an HP 🙃
+    tools:
+      - Rust
+      - ACPI
+      - Ubuntu
+
   - title: Chat App
     image: /previews/chat-app/chatroom.png
     links:
