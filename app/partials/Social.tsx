@@ -1,13 +1,19 @@
-import { FaGithub, FaGitlab, FaGoogle, FaLinkedin } from "react-icons/fa";
+import {
+  FaGithub,
+  FaGitlab,
+  FaGoogle,
+  FaLinkedin,
+  FaMedium,
+} from "react-icons/fa";
 import { SocialLink } from "@/app/components";
 
-export const GMAIL_URL =
-  "https://mail.google.com/mail/?view=cm&source=mailto&to=";
+const GMAIL_URL = "https://mail.google.com/mail/?view=cm&source=mailto&to=";
 
 export interface SocialProps {
   github?: string;
   gitlab?: string;
   linkedin?: string;
+  medium?: string;
   email?: string;
 }
 
@@ -15,6 +21,7 @@ export const Social: React.FC<SocialProps> = ({
   github,
   gitlab,
   linkedin,
+  medium,
   email,
 }) => (
   <ul className="z-30 ml-1 mt-8 flex items-center animate__animated animate__fadeIn animate__slower animate__delay-1s">
@@ -32,5 +39,8 @@ export const Social: React.FC<SocialProps> = ({
         <FaGoogle />
       </SocialLink>
     )}
+    <SocialLink href={medium}>
+      <FaMedium />
+    </SocialLink>
   </ul>
 );

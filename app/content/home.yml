@@ -55,8 +55,9 @@ experience:
 
 projects:
   - title: Shalamar
-    link: /projects/shalamar/
+    link: https://game-engine-liontech.vercel.app/
     image: /previews/shalamar/editor.png
+    preview: /previews/shalamar/demo.webm
     description: Polyglot game development engine.
       Polyglot game development engine.
       Enables developers to leverage almost any coding language in their game.
@@ -70,7 +71,7 @@ projects:
       - Zustand
 
   - title: Chat App
-    link: /projects/chat-app
+    link: https://chat.mongotel.com/
     image: /previews/chat-app/chatroom.png
     description: Take your Mongotel number to the next level with SMS/MMS.
       Managers can delegate access to their numbers and
@@ -88,7 +89,7 @@ projects:
     link: https://liontech.nyc/
     image: /previews/liontechnyc/home.png
     description:
-      A consultancy agency I created to do my freelance and contract work under.
+      Landing site for a consultancy agency I created to do my freelance and contract work under.
       I work with businesses to understand their goals
       and help identify ways they can maximize ROI with technology.
 
@@ -102,4 +103,5 @@ social:
   github: https://github.com/ezrasingh/
   gitlab: https://gitlab.com/esingh/
   linkedin: https://www.linkedin.com/in/ezrasingh/
+  medium: https://medium.com/@singhezra/
   email: singhezra@gmail.com

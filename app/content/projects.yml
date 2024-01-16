@@ -5,7 +5,6 @@ grid:
     preview: /previews/shalamar/demo.webm
     links:
       app: https://game-engine-liontech.vercel.app/
-      study: /projects/shalamar/
     wip: true
     description: Polyglot game development engine.
       Enables developers to leverage almost any coding language in their game.
@@ -19,25 +18,21 @@ grid:
       - WASM
       - Rust
 
-  #- title: Flower Finder
-  #  image: /previews/game-engine/editor.png
-  #  wip: true
-  #  description:
-  #    Video course that teaches how to build a web app with the Spotify
-  #    Web API. Topics covered include the principles of REST APIs, user
-  #    auth flows, Node, Express, React, Styled Components, and more.
-  #  tools:
-  #    - Django
-  #    - GraphQL
-  #    - Vite
-  #    - FlyIO
-  #    - ESP32
+  - title: Flower Finder
+    wip: true
+    description: Eccommerce platform with embedded real-time inventory tracking and Point-of-Sale.
+    tools:
+      - Django
+      - React
+      - GraphQL
+      - FlyIO
+      - PlatformIO
+      - C++
 
   - title: Service Graphing Tool
     image: /previews/service-graph/graph.png
     links:
       app: https://service-grapher.vercel.app/
-      study: /projects/service-graph/
     description: Document your infrastructure with a graph structure.
       Helps with onboarding new members of the engineering team by providing
       a visual talking point for explaining exisiting architecture.
@@ -51,7 +46,6 @@ grid:
     image: /previews/chat-app/chatroom.png
     links:
       app: https://chat.mongotel.com/
-      study: /projects/chat-app/
     description: Take your Mongotel number to the next level with SMS/MMS.
       Managers can delegate access to their numbers and
       allow staff members to directly text message their customers.
@@ -78,37 +72,4 @@ grid:
 
 # Case Studies
 studies:
-  shalamar:
-    title: Shalamar
-    subtitle: Polyglot game dev engine
-    image: /previews/shalamar/editor.png
-    preview: /previews/shalamar/demo.webm
-    link: https://game-engine-liontech.vercel.app/
-    tools:
-      - ThreeJS
-      - Typescript
-      - Zustand
-      - WASM
-      - Rust
-  service-graph:
-    title: Service Graph
-    subtitle: Document your infrastructure with a graph structure
-    image: /previews/service-graph/graph.png
-    link: https://service-grapher.vercel.app/
-    tools:
-      - D3
-      - NextJS
-      - Jsonnet
-      - Github Actions
-
-  chat-app:
-    title: Chat App
-    subtitle: Shared SMS / MMS access for your Mongotel number
-    image: /previews/chat-app/chatroom.png
-    link: https://chat.mongotel.com/
-    tools:
-      - React
-      - Redux
-      - SocketIO
-      - MongoDB
-      - AWS
+# ! TODO
