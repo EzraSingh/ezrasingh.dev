@@ -1,6 +1,6 @@
 import { HyperLink, Section } from "@/app/components";
 
-export const AboutMe = () => (
+export const About = () => (
   <Section
     id="about"
     title="About me"
@@ -20,10 +20,10 @@ export const AboutMe = () => (
         community organization
       </HyperLink>
       , and a&nbsp;
-      <HyperLink href="https://mongotel.com/">large corporation</HyperLink>.
+      <HyperLink href="https://mongotel.com/">telecom company</HyperLink>.
     </p>
     <p className="mb-4">
-      These days, my main focus has been on{" "}
+      These days, my focus has been on{" "}
       <HyperLink href="https://github.com/EzraSingh/">
         contributing to open source
       </HyperLink>{" "}

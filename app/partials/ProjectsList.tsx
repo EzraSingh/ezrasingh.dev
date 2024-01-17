@@ -14,7 +14,7 @@ export interface MyProjectsProps {
   }>;
 }
 
-export const MyProjects: React.FC<MyProjectsProps> = ({ content }) => (
+export const ProjectsList: React.FC<MyProjectsProps> = ({ content }) => (
   <Section
     id="projects"
     title="Projects"

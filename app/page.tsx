@@ -1,9 +1,9 @@
 import {
   Header,
-  AboutMe,
+  About,
   Experience,
   Footer,
-  MyProjects,
+  ProjectsList,
   Contact,
 } from "@/app/partials";
 import { SplitLayout } from "@/app/components";
@@ -17,9 +17,9 @@ export default function Home() {
       <Header social={content.social} />
       <main className="pt-12 lg:pt-24 lg:w-1/2 lg:py-24">
         <Contact />
-        <AboutMe />
+        <About />
         <Experience content={content.experience} />
-        <MyProjects content={content.projects} />
+        <ProjectsList content={content.projects} />
         <Footer />
       </main>
     </SplitLayout>
