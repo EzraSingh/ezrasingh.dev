@@ -72,8 +72,8 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
           )}
         >
           {project.preview && (
-            <video width={1000} height={64} autoPlay loop muted>
-              <source src={project.preview} type="video/webm" />
+            <video width={1000} height={64} autoPlay loop muted playsInline>
+              <source src={project.preview} type="video/mp4" />
             </video>
           )}
           {!project.preview && project.image && (

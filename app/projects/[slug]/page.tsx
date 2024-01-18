@@ -107,8 +107,8 @@ export default function CaseStudy({ params }: PageProps) {
         <aside className={galleryClass}>
           <figure className="inline-block lg:sticky lg:top-16">
             {project.preview ? (
-              <video width={1000} height={500} autoPlay loop muted>
-                <source src={project.preview} type="video/webm" />
+              <video width={1000} height={500} autoPlay loop muted playsInline>
+                <source src={project.preview} type="video/mp4" />
               </video>
             ) : (
               <Image
