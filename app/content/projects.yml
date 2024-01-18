@@ -1,8 +1,7 @@
-# Project List
 grid:
   - title: Shalamar
     image: /previews/shalamar/editor.png
-    preview: /previews/shalamar/demo.webm
+    preview: /previews/shalamar/demo.mp4
     links:
       app: https://game-engine-liontech.vercel.app/
     wip: true
@@ -20,7 +19,7 @@ grid:
 
   - title: Service Graphing Tool
     image: /previews/service-graph/graph.png
-    preview: /previews/service-graph/demo.webm
+    preview: /previews/service-graph/demo.mp4
     links:
       app: https://service-grapher.vercel.app/
     description: Document your infrastructure with a graph structure.
@@ -82,6 +81,5 @@ grid:
       - PlatformIO
       - C++
 
-# Case Studies
 studies:
 # ! TODO

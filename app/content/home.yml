@@ -56,7 +56,7 @@ projects:
   - title: Shalamar
     link: https://game-engine-liontech.vercel.app/
     image: /previews/shalamar/editor.png
-    preview: /previews/shalamar/demo.webm
+    preview: /previews/shalamar/demo.mp4
     description: Polyglot game development engine.
       Polyglot game development engine.
       Enables developers to leverage almost any coding language in their game.
@@ -69,34 +69,27 @@ projects:
       - React
       - Zustand
 
-  - title: Chat App
-    link: https://chat.mongotel.com/
-    image: /previews/chat-app/chatroom.png
-    description: Take your Mongotel number to the next level with SMS/MMS.
-      Managers can delegate access to their numbers and
-      allow staff members to directly text message their customers.
+  - title: ACPI Event Manager
+    image: /previews/acpi-event-manager/repo.png
+    link: https://github.com/ezrasingh/acpi-event-manager/
+    description: ACPI Event Manager for brightness control. This script is for Ubuntu developers like me who made the mistake of buying an HP 🙃
     tools:
-      - React
-      - SocketIO
-      - MongoDB
-      - Redux
-      - Bandwidth
-      - Peerless
-      - Redis
+      - Rust
+      - ACPI
+      - Ubuntu
 
-  - title: Lion Tech NYC
-    link: https://liontech.nyc/
-    image: /previews/liontechnyc/home.png
-    description:
-      Landing site for a consultancy agency I created to do my freelance and contract work under.
-      I work with businesses to understand their goals
-      and help identify ways they can maximize ROI with technology.
-
+  - title: Service Graphing Tool
+    link: https://service-grapher.vercel.app/
+    image: /previews/service-graph/graph.png
+    preview: /previews/service-graph/demo.mp4
+    description: Document your infrastructure with a graph structure.
+      Helps with onboarding new members of the engineering team by providing
+      a visual talking point for explaining exisiting architecture.
     tools:
-      - Gatsby
-      - SCSS
-      - Netlify
-      - Typescript
+      - D3
+      - NextJS
+      - Jsonnet
+      - Github Actions
 
 articles:
   - title: How Rust Saved My Eyes
