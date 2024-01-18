@@ -1,8 +1,7 @@
-# Project List
 grid:
   - title: Shalamar
     image: /previews/shalamar/editor.png
-    preview: /previews/shalamar/demo.webm
+    preview: /previews/shalamar/demo.mp4
     links:
       app: https://game-engine-liontech.vercel.app/
     wip: true
@@ -20,7 +19,7 @@ grid:
 
   - title: Service Graphing Tool
     image: /previews/service-graph/graph.png
-    preview: /previews/service-graph/demo.webm
+    preview: /previews/service-graph/demo.mp4
     links:
       app: https://service-grapher.vercel.app/
     description: Document your infrastructure with a graph structure.
@@ -31,6 +30,17 @@ grid:
       - NextJS
       - Jsonnet
       - Github Actions
+
+  - title: ACPI Event Manager
+    image: /previews/acpi-event-manager/repo.png
+    links:
+      app: https://github.com/ezrasingh/acpi-event-manager/
+      study: https://medium.com/@singhezra/how-rust-saved-my-eyes-4c1e4061a13e
+    description: ACPI Event Manager for brightness control. This script is for Ubuntu developers like me who made the mistake of buying an HP 🙃
+    tools:
+      - Rust
+      - ACPI
+      - Ubuntu
 
   - title: Lion Tech NYC
     image: /previews/liontechnyc/home.png
@@ -45,17 +55,6 @@ grid:
       - SCSS
       - Netlify
       - SPA
-
-  - title: ACPI Event Manager
-    image: /previews/acpi-event-manager/repo.png
-    links:
-      app: https://github.com/ezrasingh/acpi-event-manager/
-      study: https://medium.com/@singhezra/how-rust-saved-my-eyes-4c1e4061a13e
-    description: ACPI Event Manager for brightness control. This script is for Ubuntu developers like me who made the mistake of buying an HP 🙃
-    tools:
-      - Rust
-      - ACPI
-      - Ubuntu
 
   - title: Chat App
     image: /previews/chat-app/chatroom.png
@@ -82,6 +81,5 @@ grid:
       - PlatformIO
       - C++
 
-# Case Studies
 studies:
 # ! TODO

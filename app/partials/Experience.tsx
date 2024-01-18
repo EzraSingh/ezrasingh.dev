@@ -49,7 +49,7 @@ export const Experience: React.FC<ExperienceProps> = ({ content }) => (
                       target="_blank"
                     >
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
-                      <span>
+                      <span className="capitalize">
                         {role}&nbsp;|&nbsp;{org}
                         <span className="inline-block lg:ml-4 ml-2">
                           <FaLink />
