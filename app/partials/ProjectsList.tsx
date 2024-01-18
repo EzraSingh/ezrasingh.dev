@@ -54,8 +54,9 @@ export const ProjectsList: React.FC<MyProjectsProps> = ({ content }) => (
                   autoPlay
                   loop
                   muted
+                  playsInline
                 >
-                  <source src={preview} type="video/webm" />
+                  <source src={preview} type="video/mp4" />
                 </video>
               ) : (
                 <Image
