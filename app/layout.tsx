@@ -22,7 +22,8 @@ const containerClass = cx(
 
 export const metadata: Metadata = {
   title: "Ezra Singh | Software Engineer",
-  description: "I build cool things",
+  description:
+    "From pixels to databases, I build performant and user-friendly applications 🚀",
 };
 
 export default function RootLayout({
