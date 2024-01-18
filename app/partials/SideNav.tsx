@@ -10,7 +10,6 @@ export const SideNav = () => {
         <NavItem href="#about">about</NavItem>
         <NavItem href="#experience">experience</NavItem>
         <NavItem href="/projects">projects</NavItem>
-        <NavItem href="https://medium.com/@singhezra">articles</NavItem>
         <NavItem href="https://blinq.me/LiyYt7vR2nX3">lets talk</NavItem>
       </ul>
     </nav>

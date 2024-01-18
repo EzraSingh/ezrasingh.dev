@@ -6,3 +6,4 @@ export * from "./ProjectsList";
 export * from "./ProjectsGrid";
 export * from "./SideNav";
 export * from "./Contact";
+export * from "./Articles";

@@ -99,6 +99,26 @@ projects:
       - Netlify
       - Typescript
 
+articles:
+  - title: How Rust Saved My Eyes
+    link: https://medium.com/@singhezra/how-rust-saved-my-eyes-4c1e4061a13e/
+    description: The story behind ACPI Event Manager
+    platform: medium
+    published: Jan 16, 2024
+    tags:
+      - ACPI
+      - Linux
+      - Rust
+      - Ubuntu
+  - title: Thinking in code
+    link: https://medium.com/@singhezra/thinking-in-code-562a9acffed7/
+    description: I wrote this article to send a message of positivity for anyone who may be interested in learning to code.
+    platform: linkedin
+    published: Jul 24, 2020
+    tags:
+      - Inspirational
+      - Coding
+
 social:
   github: https://github.com/ezrasingh/
   gitlab: https://gitlab.com/esingh/

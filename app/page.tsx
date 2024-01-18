@@ -1,10 +1,11 @@
 import {
   Header,
+  Contact,
   About,
   Experience,
-  Footer,
   ProjectsList,
-  Contact,
+  Articles,
+  Footer,
 } from "@/app/partials";
 import { SplitLayout } from "@/app/components";
 
@@ -20,6 +21,7 @@ export default function Home() {
         <About />
         <Experience content={content.experience} />
         <ProjectsList content={content.projects} />
+        <Articles content={content.articles} />
         <Footer />
       </main>
     </SplitLayout>
