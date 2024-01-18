@@ -24,7 +24,7 @@ grid:
       app: https://service-grapher.vercel.app/
     description: Document your infrastructure with a graph structure.
       Helps with onboarding new members of the engineering team by providing
-      a visual talking point for explaining exisiting architecture.
+      a visual talking point for explaining existing architecture.
     tools:
       - D3
       - NextJS
