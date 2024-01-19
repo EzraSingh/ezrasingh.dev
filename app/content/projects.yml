@@ -72,7 +72,7 @@ grid:
 
   - title: Flower Finder
     wip: true
-    description: Eccommerce platform with embedded real-time inventory tracking and Point-of-Sale.
+    description: Ecommerce platform with embedded real-time inventory tracking and Point-of-Sale.
     tools:
       - Django
       - React
