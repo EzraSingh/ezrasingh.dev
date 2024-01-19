@@ -17,7 +17,7 @@ Install dependencies
 yarn install
 ```
 
-Run development server @ [port 300](http://localhost:3000/)
+Run development server @ [port 3000](http://localhost:3000/)
 
 ```shell
 yarn dev
