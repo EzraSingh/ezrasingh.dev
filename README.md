@@ -1,4 +1,4 @@
-# ezrasingh.dev
+# [ezrasingh.dev](https://ezrasingh.dev/)
 
 ![Preview](public/previews/index.png)
 
