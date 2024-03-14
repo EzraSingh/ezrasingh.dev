@@ -1,56 +1,50 @@
 experience:
   - org: Mongotel
-    role: Lead Fullstack Engineer
+    role: Full Stack Engineer
     department: Apps Team
     location: Brooklyn, NY
     timeframe: 2020 - 2023
     website: https://mongotel.com
     description:
-      Revamped outdated code bases to align with contemporary standards,
-      leading to decreased operational expenses and enhanced functionality.
-      Collaborated with cross-functional teams, including project managers, developers, quality assurance,
-      and customers, to address technical issues, designed system architecture,
-      and implemented product specifications.
+      I led the development of a real-time SMS/MMS chat application, enabling secure sharing and delegation of texting numbers for our clients.
+      Collaborating with the team, I played a key role in migrating legacy applications and services.
+      Together, we developed an application to streamline the onboarding process for SMS-enabled users and ensure regulatory compliance.
     tools:
+      - Python
+      - NodeJS
       - React
-      - Django
-      - Postgres
-      - Typescript
+      - WebSocket
+      - SQL
+      - Docker
       - AWS
 
   - org: Related Painting
-    role: Frontend Engineer
+    role: Front End Developer
     department: Founding Team
     location: New York, NY
     timeframe: 2018 - 2019
     website: https://relatedpainting.com
     description:
-      Transformed mockups into functional web interfaces using React and Firebase.
-      Ensured optimal website design through thorough testing for responsiveness, clarity, and effectiveness,
-      conducting functional testing throughout the web development lifecycle.
+      Developed a React-based frontend with Firebase integration, working closely with UX designers to ensure accurate implementation.
+      Implemented features to seamlessly connect paint contractors with local gigs.
     tools:
       - React
       - Redux
-      - Javascript
       - Firebase
-      - SCSS
       - Heroku
 
   - org: Empire Capital Holdings
-    role: Web Developer
+    role: Back End Developer
     department: Development Team
     location: New York, NY
     timeframe: 2016 - 2017
     website: https://empirecapitalholdings.com/
-    description:
-      Implemented technical solutions to support specific user-facing assets, such as a Property Search Engine.
-      Managed back-end development using PHP to uphold website integrity, security, and efficiency.
+    description: Developed a Real Estate Property Search Engine web application using PHP and Python, featuring a backend ETL pipeline leveraging BeautifulSoup for data extraction and SQL database population, enabling efficient lead identification from scraped property listings.
     tools:
-      - Javascript
-      - JQuery
-      - Bootstrap
-      - Wordpress
+      - Python
+      - BeautifulSoup
       - PHP
+      - SQL
 
 projects:
   - title: Shalamar
