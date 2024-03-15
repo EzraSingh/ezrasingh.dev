@@ -39,7 +39,9 @@ experience:
     location: New York, NY
     timeframe: 2016 - 2017
     website: https://empirecapitalholdings.com/
-    description: Developed a Real Estate Property Search Engine web application using PHP and Python, featuring a backend ETL pipeline leveraging BeautifulSoup for data extraction and SQL database population, enabling efficient lead identification from scraped property listings.
+    description:
+      Developed a Real Estate Property Search Engine web application using Python.
+      Featuring a back-end ETL pipeline leveraging BeautifulSoup for data extraction and SQL database population, enabling efficient lead identification from scraped property listings.
     tools:
       - Python
       - BeautifulSoup
