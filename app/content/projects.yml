@@ -3,6 +3,7 @@ grid:
     image: /previews/geoprox/crate.png
     links:
       app: https://crates.io/crates/geoprox/
+      study: https://gitlab.com/indyrs/may2024/-/blob/main/Geo-Proximity-Detection-With-Rust.pdf
     description:
       A Geo-Proximity detection service for efficient real-time geo-aware contract pairing.
       Ideal for rideshare pairing services

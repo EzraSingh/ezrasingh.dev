@@ -99,6 +99,15 @@ projects:
       - Github Actions
 
 articles:
+  - title: Geo Proximity Detection
+    link: https://gitlab.com/indyrs/may2024/-/blob/main/Geo-Proximity-Detection-With-Rust.pdf
+    description: May 2024 Indy.rs talk about efficient real-time geo-aware contract pairing
+    platform: Rust Indyrs Meetup
+    published: May 1, 2024
+    tags:
+      - Rust
+      - Geohash
+      - Nearest Neighbor
   - title: How Rust Saved My Eyes
     link: https://medium.com/@singhezra/how-rust-saved-my-eyes-4c1e4061a13e/
     description: The story behind ACPI Event Manager
