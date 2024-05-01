@@ -47,6 +47,19 @@ experience:
       - SQL
 
 projects:
+  - title: GeoProx
+    image: /previews/geoprox/crate.png
+    link: https://crates.io/crates/geoprox/
+    description:
+      A Geo-Proximity detection service for efficient real-time geo-aware contract pairing.
+      Ideal for rideshare pairing services
+    tools:
+      - Rust
+      - Axum
+      - Toxio
+      - Geohash
+      - Patricia Trie Tree
+      - KD Tree
   - title: Shalamar
     link: https://game-engine-liontech.vercel.app/
     image: /previews/shalamar/editor.png
