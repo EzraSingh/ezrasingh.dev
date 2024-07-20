@@ -4,7 +4,7 @@ experience:
     department: Apps Team
     location: Brooklyn, NY
     timeframe: 2020 - 2023
-    website: https://mongotel.com
+    website: https://mongotel.com/
     description:
       Led the development of a real-time SMS/MMS chat application, enabling secure sharing and delegation of texting numbers for our clients.
       Collaborating with the team, I played a key role in migrating legacy applications and services.
@@ -23,7 +23,7 @@ experience:
     department: Founding Team
     location: New York, NY
     timeframe: 2018 - 2019
-    website: https://relatedpainting.com
+    website: https://relatedpainting.com/
     description:
       Developed a React-based frontend with Firebase integration, working closely with UX designers to ensure accurate implementation.
       Implemented features to seamlessly connect paint contractors with local gigs.
@@ -126,6 +126,14 @@ articles:
     tags:
       - Inspirational
       - Coding
+  - title: The Future of IoT
+    link: https://singhezra.wixsite.com/ezrasingh/single-post/2016/12/01/the-future-of-iot/
+    description: In this article, I discuss how IoT will revolutionize security and big data analytics, despite the ongoing challenge of zero-day vulnerabilities.
+    platform: blog
+    published: Dec 1, 2016
+    tags:
+      - IoT
+      - Security 
 
 social:
   github: https://github.com/ezrasingh/
