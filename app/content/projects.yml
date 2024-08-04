@@ -1,24 +1,37 @@
 grid:
   - title: GeoProx
     image: /previews/geoprox/crate.png
+    wip: true
     links:
-      app: https://crates.io/crates/geoprox/
+      app: https://github.com/ezrasingh/geoprox/
       study: https://gitlab.com/indyrs/may2024/-/blob/main/Geo-Proximity-Detection-With-Rust.pdf
     description:
       A Geo-Proximity detection service for efficient real-time geo-aware contract pairing.
-      Ideal for rideshare pairing services
+      Ideal for rideshare pairing services.
     tools:
       - Rust
       - Axum
-      - Toxio
       - Geohash
       - Patricia Trie Tree
       - KD Tree
+  
+  - title: Terraform Module Deployments
+    image: /previews/terraform/modules.png
+    links:
+      app: https://gitlab.com/esingh/module-example/
+      study: https://www.linkedin.com/pulse/leveraging-gitlab-ci-terraform-module-deployments-case-ezra-singh-0j0te/
+    description: Manage the release and publication of Terraform modules into a registry.
+    tools:
+      - Terraform
+      - Terragrunt
+      - Gitlab CI
+      - DevOps
+  
   - title: Shalamar
     image: /previews/shalamar/editor.png
     preview: /previews/shalamar/demo.mp4
     links:
-      app: https://game-engine-liontech.vercel.app/
+      app: https://github.com/ezrasingh/shalamar/
     wip: true
     description: Polyglot game development engine.
       Enables developers to leverage almost any coding language in their game.
@@ -31,6 +44,17 @@ grid:
       - Zustand
       - WASM
       - Rust
+
+  - title: ACPI Event Manager
+    image: /previews/acpi-event-manager/repo.png
+    links:
+      app: https://github.com/ezrasingh/acpi-event-manager/
+      study: https://medium.com/@singhezra/how-rust-saved-my-eyes-4c1e4061a13e
+    description: ACPI Event Manager for brightness control. This script is for Ubuntu developers like me who made the mistake of buying an HP 🙃.
+    tools:
+      - Rust
+      - ACPI
+      - Ubuntu
 
   - title: Service Graphing Tool
     image: /previews/service-graph/graph.png
@@ -45,17 +69,6 @@ grid:
       - NextJS
       - Jsonnet
       - Github Actions
-
-  - title: ACPI Event Manager
-    image: /previews/acpi-event-manager/repo.png
-    links:
-      app: https://github.com/ezrasingh/acpi-event-manager/
-      study: https://medium.com/@singhezra/how-rust-saved-my-eyes-4c1e4061a13e
-    description: ACPI Event Manager for brightness control. This script is for Ubuntu developers like me who made the mistake of buying an HP 🙃
-    tools:
-      - Rust
-      - ACPI
-      - Ubuntu
 
   - title: Lion Tech NYC
     image: /previews/liontechnyc/home.png
@@ -95,6 +108,20 @@ grid:
       - FlyIO
       - PlatformIO
       - C++
+  
+  - title: Anagramer
+    image: /previews/anagramer/client.png
+    links:
+      app: https://github.com/ezrasingh/anagramer/
+      study: https://github.com/ezrasingh/anagramer/blob/master/README.md
+    description: Solution to the Fluentcity Coding Challenge.
+    tools:
+      - Python
+      - Flask
+      - GraphQL
+      - Redis
+      - Docker
+      - PyTest
 
 studies:
 # ! TODO
