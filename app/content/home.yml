@@ -50,15 +50,14 @@ projects:
   - title: GeoProx
     image: /previews/geoprox/crate.png
     link: https://github.com/ezrasingh/geoprox/
-    description:
-      A Geo-Proximity detection service for efficient real-time geo-aware contract pairing.
-      Ideal for rideshare pairing services
+    description: An in-memory geospatial search engine designed for efficient real-time location-based pairing.
     tools:
       - Rust
       - Axum
       - Geohash
       - Patricia Trie Tree
-      - KD Tree
+      - K-D Tree
+      
   - title: Shalamar
     link: https://game-engine-liontech.vercel.app/
     image: /previews/shalamar/editor.png
@@ -105,7 +104,9 @@ articles:
     published: May 1, 2024
     tags:
       - Rust
-      - Geohash
+      - Geospatial
+      - Geohashing
+      - Prefix Tree
       - Nearest Neighbor
   - title: How Rust Saved My Eyes
     link: https://medium.com/@singhezra/how-rust-saved-my-eyes-4c1e4061a13e/

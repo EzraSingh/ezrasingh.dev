@@ -5,15 +5,13 @@ grid:
     links:
       app: https://github.com/ezrasingh/geoprox/
       study: https://gitlab.com/indyrs/may2024/-/blob/main/Geo-Proximity-Detection-With-Rust.pdf
-    description:
-      A Geo-Proximity detection service for efficient real-time geo-aware contract pairing.
-      Ideal for rideshare pairing services.
+    description: An in-memory geospatial search engine designed for efficient real-time location-based pairing.
     tools:
       - Rust
       - Axum
       - Geohash
       - Patricia Trie Tree
-      - KD Tree
+      - K-D Tree
   
   - title: Terraform Module Deployments
     image: /previews/terraform/modules.png
